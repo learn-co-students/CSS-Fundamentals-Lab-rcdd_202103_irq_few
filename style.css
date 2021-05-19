@@ -2,4 +2,26 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center
 }
+
+nav a{
+  background-color: gray;
+  padding: 5px;
+}
+
+#details{
+  display: flex;
+  justify-content: space-around;
+  background-color: red 
+}
+
+#featured-property{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#featured-property p{
+  width: 50%
+}
+  
